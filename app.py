@@ -1,11 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 import requests
-from dotenv import load_dotenv
 import os
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Retrieve the API key and assistant ID from environment variables
 api_key = os.getenv("OPENAI_API_KEY")
